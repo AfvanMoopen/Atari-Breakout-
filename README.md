@@ -11,4 +11,7 @@ Breakout
 
 
 
-Checkout [gym_eval.py](https://github.com/Afvanjaffer/Atari-Breakout-/blob/master/gym_eval.py)
+Checkout [main.py](https://github.com/Afvanjaffer/Atari-Breakout-/blob/master/main.py) to Train Agents
+```
+python main.py --env ENV --workers 32 --gpu-ids 0 1 2 3 --amsgrad True
+```
